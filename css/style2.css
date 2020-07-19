@@ -1,0 +1,132 @@
+/*@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto;
+	width:1024px;
+			height:auto;}
+			
+			
+								footer{
+									margin-top:100px;
+									width:1024px;
+									height:100px;
+									background: black;
+									color:white;
+									text-align:center;
+									line-height:50px;}
+	.mini{
+		width:600px;
+		height:750px;
+		background-color:#73C6B6;
+		margin:0 auto;
+		margin-top:50px;
+		margin-bottom:50px;
+		margin-left:300px;
+		padding:20px;}
+				aside{
+		width:220px;
+		height:940px;
+		background-color:black;
+		float:left;
+		
+	}
+	
+	header img {
+		width:1024;
+		height:100px;
+		color:black;
+		animation: heading;
+		animation-duration:3s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes heading{
+		0%{ transform: translateY(-100px); }
+	  100%{ transform: translateY(5px); }
+	}
+
+			header h1{
+				background-color:#FFF0F5;
+				text-align:center;
+				line-height:100px;}
+				nav{
+					width:1024px;
+					height:50px;
+					background:black;}
+					   nav ul{
+						 margin-left:100px;
+					   background:black;}
+						  nav ul li{
+							list-style:none;
+						 text-align:center;
+							width:150px;
+								 float:left;
+							 line-height:50px;}
+						  nav ul li a{
+							 text-decoration:none;
+							   color:white;
+							  font-size:14px;
+							   font-weight:bolder;}
+									nav ul li:hover{
+								  background-color: #73C6B6;
+									border-radius:5px;}	
+				
+								
+				section{
+			
+					width:840px;
+					height:600px;
+					}
+									
+
+
+
+				footer{
+								
+					width:1024px;
+					height:100px;
+			     	background:	#000000;
+				    color:white;
+					text-align:center;
+					line-height:100px;}
+	
+	.mini{
+		width:600px;
+		height:750px;
+		background-color: #73C6B6;
+		margin:0 auto;
+		margin-top:50px;
+		margin-bottom:50px;
+		margin-left:300px;
+		padding:20px;}
+		.mini h1{margin-left:200px;}
+		input{
+			width:600px;
+			height:30px;
+			border-radius:4px;
+			margin-top:15px;
+			margin-bottom:15px;
+		}
+			select{width:600px;
+			height:30px;
+			border-radius:4px;
+			margin-top:15px;
+			margin-bottom:15px;}
+			textarea{width:600px;
+			margin-bottom:15px;
+			height:30px;
+			border-radius:4px;
+			margin-top:15px;}
+			.btn{
+				width: 50px;
+				display: inline-block;
+				padding-left: 1rem;
+				padding-right: 1rem;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				background-color: thistle;
+				color: black;
+				margin-top: 40px;
+				text-decoration: none;
+				border: black 1px solid;								
+			}
+
+			

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0 auto;
+	width:1024px;
+		height:auto;
+	}
+	.cotainer{
+		width:1024px;
+		height:auto;
+	}
+
+	#case {
+		width:1024;
+		height:100px;
+		color:black;
+		animation: head;
+		animation-duration:3s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes head{
+		0%{ transform: translateY(-100px); }
+      100%{ transform: translateY(5px); }
+	}
+	
+		header h1{
+			background-color:#FFF0F5;
+			text-align:center;
+			line-height:100px;
+			margin-left:0px;
+		}
+			nav{
+				width:1024px;
+				height:50px;
+				background:black;}
+
+             nav ul{
+	                margin-left:120px;
+				   background:black;}
+				   
+            nav ul li{
+	                list-style:none;
+	                text-align:center;
+	                width:150px;
+	                 float:left;
+					line-height:50px;}
+						 
+	        nav ul li a{
+		            text-decoration:none;
+		            color:white;
+		            font-size:16px;
+					font-weight:bolder;}
+						   
+	        nav ul li:hover{
+	                 background-color:#73C6B6;
+	                  border-radius:5px;}	
+									
+								
+            footer{width:1024px;
+					height:100px;
+					background:black;
+					color:white;
+					text-align:center;
+                    line-height:50px;}
+                    
+             .blogz{ 
+            width:990px;
+            height:750px;
+            background-color:#FFF0F5;
+            margin:0 auto;
+            margin-top:30px;
+            margin-bottom:30px;
+            padding:20px;}
+
+            section h1{
+                width: 990px;
+                border-bottom:3px;
+                border-bottom:1px solid ;
+                border-color: black;                
+            }
+         section img {
+            margin-left: -30px;
+            margin-right: 30px;
+             margin-top: 50px;
+             height: 150px;
+             width: 150px;
+            animation-name: mental ;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            }
+            @keyframes mental {
+                0%{ transform: translateX(-1000px); }
+                 100%{ transform: translateX(5px);  }
+            }
+            p{
+                animation-name: yo ;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            }
+            @keyframes yo {
+                0%{ transform: translateX(-1000px); }
+                 100%{ transform: translateX(5px);  }}
+           
+             .flex-container {
+    
+                display: flex;
+                justify-content: left;  
+              }
+              .flex-container > div {
+                width: 80px;
+               height: 80px;
+               
+              }
